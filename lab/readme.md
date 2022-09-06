@@ -15,15 +15,15 @@ Queries - 11 SQL queries
 
 
 ## Relational Schema
-Complaints (<ins>ID</ins>, UID, EmployeeID, Status, Text, FiledDateTime, HandledDateTime)
-ComplaintsOnOrders (<ins>ComplaintsID</ins>, <ins>OID)
-ComplaintOnShops (<ins>SName</ins>, <ins>ComplaintsID</ins>)
-Employees (<ins>ID</ins>, Name, Salary)
-Feedbacks (<ins>UID</ins>, <ins>PName</ins>, Rating, DateTime, Comment)
-Orders (<ins>OID</ins>, UID, DateTime, ShippingAddress)
-PriceHistory (<ins>PName</ins>, <ins>SName</ins>, Price, StartDate, EndDate)
-Products (<ins>PName</ins>, Maker, Category)
-ProductsInOrders (<ins>PName</ins>, <ins>SName</ins>, <ins>OID</ins>, Status, DeliveryDate, OPrice, OQuantiy)
-ProductsInShops (<ins>PName</ins>, <ins>SName</ins>, SPID, SPrice, SQuantiy,)
-SHOPS (<ins>SName</ins>)
+Complaints (<ins>ID</ins>, UID, EmployeeID, Status, Text, FiledDateTime, HandledDateTime)<br/>
+ComplaintsOnOrders (<ins>ComplaintsID</ins>, <ins>OID</ins>)<br/>
+ComplaintOnShops (<ins>SName</ins>, <ins>ComplaintsID</ins>)<br/>
+Employees (<ins>ID</ins>, Name, Salary)<br/>
+Feedbacks (<ins>UID</ins>, <ins>PName</ins>, Rating, DateTime, Comment)<br/>
+Orders (<ins>OID</ins>, UID, DateTime, ShippingAddress)<br/>
+PriceHistory (<ins>PName</ins>, <ins>SName</ins>, Price, StartDate, EndDate)<br/>
+Products (<ins>PName</ins>, Maker, Category)<br/>
+ProductsInOrders (<ins>PName</ins>, <ins>SName</ins>, <ins>OID</ins>, Status, DeliveryDate, OPrice, OQuantiy)<br/>
+ProductsInShops (<ins>PName</ins>, <ins>SName</ins>, SPID, SPrice, SQuantiy,)<br/>
+SHOPS (<ins>SName</ins>)<br/>
 USERS (<ins>UID</ins>, UName)
